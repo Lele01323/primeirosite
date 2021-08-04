@@ -2,15 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300&display=swap');
 
+:root {
+    --color: #F5BB90;
+}
+
 body {
-    background-image:linear-gradient(to right,#F5BB90, 
+    background-image:linear-gradient(to right, var(--color), 
     #E76F51);
     font-family:'Kaushan Script', cursive;
     font: size 20px;
 }
 
 main {
-    font-family: 'Georama', sans-serif;
+    
 }
 
 h1 {
@@ -22,7 +26,6 @@ h1 {
     margin:auto;
     color: brown;
     text-align:center;
-
 }
 
 h2 {
@@ -33,12 +36,29 @@ h2 {
     
 }
 
-
 p {
     text-align: justify;
     color:black;
     text-indent: 30px;
 }
 
+/* .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+} */
+
+.header {
+    border: 3px solid #E76F51 ;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.form-row {
+    font-family: 'Georama', sans-serif;
+    /* flex-wrap: wrap;
+    justify-content: space-around; */
+}
 
 
