@@ -9,56 +9,41 @@
 body {
     background-image:linear-gradient(to right, var(--color), 
     #E76F51);
-    font-family:'Kaushan Script', cursive;
     font: size 20px;
 }
 
-main {
-    
-}
-
-h1 {
-    /* background-color:beige; */
-    /* border-radius:10px;  */
-    /* box-shadow:5px 5px 15px, black;  */
-    /* width: 2000px; */
-    /* padding:10px; */
-    margin:auto;
-    color: brown;
-    text-align:center;
-}
-
-h2 {
-    color:black;
-    font-family:'Georama', sans-serif;
-    font-size:large;
-    text-align:center;
-    
-}
-
-p {
-    text-align: justify;
-    color:black;
-    text-indent: 30px;
-}
-
-/* .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+/* img {
+    margin: 0px 50px 75px 100px;
 } */
 
 .header {
+    margin:auto;
+    color: brown;
+    text-align:center;
+    font-family:'Kaushan Script', cursive;
+    font-size: medium;
     border: 3px solid #E76F51 ;
     border-radius: 5px;
-    padding: 20px;
+}
+
+.description {
+    color:black;
+    text-align:center;
+    font-size: small;
+    font-family:'Georama', sans-serif;
+    padding:20px;
+}
+
+p {
+    margin-top: 100px;
+    text-align: center;
+    font-size: medium;
+    color:black;
+    font-family: 'Georama', sans-serif;
 }
 
 .form-row {
     font-family: 'Georama', sans-serif;
-    /* flex-wrap: wrap;
-    justify-content: space-around; */
 }
 
 
