@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-gradient">
+    <div class="container"> 
+        <a class="navbar-brand h1 md-0" href="#">Concurso Fotográfico 2021</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+       
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Cadastro <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Regulamento <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="#">Contatos <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Vencedores
+            </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Edição Atual 2021</a>
+            <a class="dropdown-item" href="#">Edição 2020</a>
+        </li>
+      </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Foto de Cabeçalho   -->
+<div class="img">
+    <img src="/imagens/prefeitura_logo2.png" align="middle" alt="Logo da Prefeitura de Bragança Paulista">
+</div>
+
+<header>
+    <div class="container-fluid">
+     <div class="header">
+        <h1 class="p-3">Cadastro de Participação</h1>
+    </div>
+      </div>
+</header>
+<main>
+    <div class="description">
+        <h2 class="p-3"><small>Preencha as informações do participante do Concurso</small></h2> 
+    </div> 
+    <form class="container-fluid">
+        <div class="form-row">
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Nome Completo</label>
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Data de Nascimento</label>
+                <input type="date" class="form-control" id="data" placeholder="Data de Nascimento">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Cidade</label>
+                <input type="text" class="form-control" id="cidade">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Bairro</label>
+                <input type="text" class="form-control" id="bairro">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>DDD</label>
+                <input type="text" class="form-control" id="ddd">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Telefone</label>
+                <input type="text" class="form-control" id="telefone">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Local da Captura</label>
+                <input type="text" class="form-control" id="local_cap">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Data da Captura</label>
+                <input type="date" class="form-control" id="data_cap">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Legenda da Fotografia</label>
+                <input type="text" class="form-control" id="legenda">
+            </div>
+            <div class="col-md-3 col-sm-auto m-5">
+                <label>Escolher arquivo</label>
+                <input type="file" class="form-control" id="arquivo">
+            </div>
+            <div class="p-4 col-md-4 col-sm-auto m-5">
+                <button type="button" class="btn btn-info">Enviar</button>
+            </div>    
+        </div>
+    </form>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
