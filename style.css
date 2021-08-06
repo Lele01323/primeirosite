@@ -6,20 +6,6 @@
     --color: #F5BB90;
 }
 
-body {
-    /* background-image:linear-gradient(to right, var(--color), 
-    #E76F51); */
-    font: size 20px;
-}
-
-img {
-    background-image: url("/imagens/fundo.jpg");
-}
-
-/* img {
-    margin: 0px 50px 75px 100px;
-} */
-
 .header {
     margin:auto;
     color: brown;
@@ -29,6 +15,28 @@ img {
     border: 3px solid #E76F51 ;
     border-radius: 5px;
 }
+
+body {
+    /* background-image:linear-gradient(to right, var(--color), 
+    #E76F51); */
+    font: size 20px;
+}
+
+.st {
+    color: black;
+    text-align:center;
+    font-family:'Kaushan Script', cursive;
+    font-size: medium;
+}
+
+img {
+    /* background-image: url("/imagens/fundo.jpg"); */
+    width:auto;
+}
+
+/* img {
+    margin: 0px 50px 75px 100px;
+} */
 
 .description {
     color:black;
@@ -58,6 +66,5 @@ input[type="text"], input[type="file"], input[type="date"] {
 }
 
 .cont {
-    display:flex;
-    align-items: stretch;
+    display: flex;
 }
