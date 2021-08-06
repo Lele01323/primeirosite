@@ -1,15 +1,19 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100;300;400;500&display=swap');
 
 :root {
     --color: #F5BB90;
 }
 
 body {
-    background-image:linear-gradient(to right, var(--color), 
-    #E76F51);
+    /* background-image:linear-gradient(to right, var(--color), 
+    #E76F51); */
     font: size 20px;
+}
+
+img {
+    background-image: url("/imagens/fundo.jpg");
 }
 
 /* img {
@@ -44,6 +48,16 @@ p {
 
 .form-row {
     font-family: 'Georama', sans-serif;
+    color:black;
+    font-weight:500;
+
 }
 
+input[type="text"], input[type="file"], input[type="date"] {
+    background-color:transparent;
+}
 
+.cont {
+    display:flex;
+    align-items: stretch;
+}
