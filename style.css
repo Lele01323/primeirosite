@@ -17,8 +17,8 @@
 }
 
 body {
-    /* background-image:linear-gradient(to right, var(--color), 
-    #E76F51); */
+    background-image:linear-gradient(to right, var(--color), 
+    #E76F51); 
     font: size 20px;
 }
 
@@ -29,9 +29,10 @@ body {
     font-size: medium;
 }
 
-img {
+image {
     /* background-image: url("/imagens/fundo.jpg"); */
-    width:auto;
+    height:50px;
+    width:50px;
 }
 
 /* img {
@@ -41,9 +42,10 @@ img {
 .description {
     color:black;
     text-align:center;
-    font-size: small;
+    font-size: medium;
     font-family:'Georama', sans-serif;
     padding:20px;
+    font-weight: 300;
 }
 
 p {
@@ -68,3 +70,30 @@ input[type="text"], input[type="file"], input[type="date"] {
 .cont {
     display: flex;
 }
+
+.titulo {
+    color:black;
+    text-align:center;
+    font-size: medium;
+    font-family:'Georama', sans-serif;
+    padding:20px;
+    font-weight:500;
+}
+
+.content {
+    color:black;
+    text-align:center;
+    font-size: medium;
+    font-family:'Georama', sans-serif;
+    padding:20px;
+    font-weight:400;
+}
+
+.fonte {
+    color:white;
+}
+
+.fontet {
+    color:orange;
+}
+
