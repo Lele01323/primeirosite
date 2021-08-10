@@ -17,8 +17,8 @@
 }
 
 body {
-    background-image:linear-gradient(to right, var(--color), 
-    #E76F51); 
+    /* background-image:linear-gradient(to right, var(--color), 
+    #E76F51);  */
     font: size 20px;
 }
 
@@ -87,6 +87,7 @@ input[type="text"], input[type="file"], input[type="date"] {
     font-family:'Georama', sans-serif;
     padding:20px;
     font-weight:400;
+    margin: 60px;
 }
 
 .fonte {
