@@ -20,6 +20,7 @@ body {
     /* background-image:linear-gradient(to right, var(--color), 
     #E76F51);  */
     font: size 20px;
+    margin: 10px;
 }
 
 .st {
@@ -98,3 +99,9 @@ input[type="text"], input[type="file"], input[type="date"] {
     color:orange;
 }
 
+.list-group {
+    padding: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
